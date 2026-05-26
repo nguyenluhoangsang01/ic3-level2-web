@@ -22,7 +22,22 @@ export function ExamHeader({
       <div className="header-row">
         <div>
           <h1>{EXAM_TITLE}</h1>
-          <p>Làm tổng hợp toàn bộ câu hỏi hiện có.</p>
+          <p>Khi làm bài, tụi con nhớ đọc kỹ đề, đọc kỹ từng chữ.</p>
+          <p>
+            Thời gian là thi 50 phút. Không làm ẩu 1 lần rồi đi ra. Nhớ làm xong
+            45 câu rồi thì mở lại từ câu 1 tiếp tục làm lại 3 đến 4 lần nữa.
+          </p>
+          <p>
+            Nhớ coi ca thi của mình thi giờ nào (có nhiều ca thi khác nhau, mỗi
+            bạn 1 ca thi).
+          </p>
+          <p>
+            Đi thi nhớ đến sớm 30 phút và nhớ mang theo giấy tờ (Giấy khai sinh
+            + Thẻ học sinh + Căn cước) đầy đủ.
+          </p>
+          <p>
+            CHÚC TỤI CON LÀM BÀI THẬT TỐT NHA, BẠN NÀO CŨNG PHẢI 1000 ĐIỂM ĐÓ
+          </p>
         </div>
         <button type="button" className="outline-btn" onClick={onOpenNavigator}>
           Danh sách câu
